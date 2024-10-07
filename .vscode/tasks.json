@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "shellbuild",
+			"command": "./build.sh",
+			"dependsOn": [
+            "buildclean",
+        	],
+			"group": "build",
+			"problemMatcher": [],
+			"detail": "Shell template build task"
+		},
+		{
+			"type": "shell",
+			"label": "buildclean",
+			"command": "rm -rf build",
+			"problemMatcher": [],
+			"detail": "build template clean task"
+		}
+	]
+}
