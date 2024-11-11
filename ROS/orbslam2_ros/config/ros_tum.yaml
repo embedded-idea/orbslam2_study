@@ -1,0 +1,7 @@
+mono:
+    # parameters
+    ros__parameters:
+      ros_mono_voc_dir: "/home/wh/wh_repository/slam/orbslam2_study/Vocabulary/ORBvoc.txt" 
+      ros_mono_config_dir: "/home/wh/wh_repository/slam/orbslam2_study/Examples/Monocular/TUM1.yaml"
+
+
